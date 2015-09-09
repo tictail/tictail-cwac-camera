@@ -48,7 +48,7 @@ To integrate the core AAR, the Gradle recipe is:
 ```groovy
 repositories {
     maven {
-        url "https://repo.commonsware.com.s3.amazonaws.com"
+        url "https://s3.amazonaws.com/repo.commonsware.com"
     }
 }
 
@@ -65,7 +65,7 @@ repositories {
     mavenCentral();
 
     maven {
-        url "https://repo.commonsware.com.s3.amazonaws.com"
+        url "https://s3.amazonaws.com/repo.commonsware.com"
     }
 }
 
